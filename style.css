@@ -14,7 +14,7 @@ box-sizing: border-box;}
 
 .caixa{width: 450px;
     height: 550px;
-background-color: white ;
+background-color: rgb(250, 250, 250) ;
 border-radius: 10px;}
 
 .titulo{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
