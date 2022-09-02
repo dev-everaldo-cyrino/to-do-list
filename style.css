@@ -1,0 +1,124 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.container{
+    background-color: #67838a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{width: 450px;
+    height: 550px;
+background-color: white ;
+border-radius: 10px;}
+
+.titulo{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 70px;
+text-align: center;
+margin-top: 10px;}
+
+.paletas{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.paleta{
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+
+}
+
+#paleta1{background-color: rgb(46, 104, 71);}
+#paleta2{background-color: rgb(78, 59, 51);}
+#paleta3{background-color: rgb(187, 83, 65);}
+
+.erro{color: red;
+text-align: center;
+padding-left: 100pt;
+display: none;}
+
+.input{width: 320px;
+height: 50px;
+background-color: rgb(216,215,215);
+font-size: 20px;
+border-radius: 10px;
+outline: none;
+border: none;
+padding-left: 10px;}
+
+.butao{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(216,215,215);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.atividades{width: 380px;
+background-color: #006494;
+margin-left: 35px;
+margin-right: 35px;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 12px;
+
+}
+
+.butao_limpar{
+    width: 380px;
+    height: 50px;
+    background-color: #132930;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 35px;
+}
+
+.botao_del{
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+
+.atividades{
+    background-color: grey;
+    margin: 10px 35px;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.atividade{
+    width: 350px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
